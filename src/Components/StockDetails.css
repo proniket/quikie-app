@@ -1,0 +1,87 @@
+.tableMainHead{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+
+.tableMainHead>p{
+    width: 25%;
+}
+
+/* .tableMainHead>p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+ */
+/* input[type=text] {
+    border: none;
+    outline: none;
+    background-color: #F4F2FF;
+}   */
+input[type="text"]{
+    background-color: #F4F2FF;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+.uneditable-input:focus {  
+  background-color: #F4F2FF; 
+  border-color: #F4F2FF;
+  box-shadow: none;
+  outline: 0 none;
+}
+
+.span-div{
+    background-color: #F4F2FF;
+}
+
+/* .table-div{
+    display: flex;
+    justify-content: center;
+} */
+
+/* .table-div th{
+    margin-left: 5rem;
+} */
+
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #6D5BD0;
+    border-color: #6D5BD0;
+}
+
+.tableFooter{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5.5rem;
+    background-color: #F4F2FF;
+}
+
+.footerDiv{
+    margin-bottom: -1.0rem;
+}
+
+/* Button */
+.saveBtn{
+    background-color: #18A0FB;
+    color: #fff;
+    max-width: 6.25rem;
+    padding: 0.3125rem 1rem 0.3125rem 1rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.viewBtn{
+    background-color: #6D5BD0;
+    color: #fff;
+    max-width: 5.625rem;
+    padding: 0.3125rem 1.625rem 0.3125rem 1.625rem;
+    border-radius: 5px;
+    border: none;
+}

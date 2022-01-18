@@ -1,0 +1,27 @@
+/* Button */
+.savedTableHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F2FF;
+    width: 376%;
+}
+
+.secondaryBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6D5BD0;
+    color: #fff;
+    max-width: 5.625rem;
+    padding: 0.3125rem 1.625rem 0.3125rem 1.625rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F2FF;
+}

@@ -1,0 +1,27 @@
+.cardDiv{
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F2FF !important;
+    /* background-color: red !important; */
+    /* max-width: 309px; */
+    height: 191px; 
+    /* margin: 0px 5.75rem 0px 0px; */
+}
+
+.cardUp{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.productImg{
+    max-width: 55px;
+}
+
+.productPrice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
